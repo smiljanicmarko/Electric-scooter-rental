@@ -15,7 +15,7 @@
 	</parent>
 
 	<groupId>modul3</groupId>
-	<artifactId>ZavrsniTest</artifactId>
+	<artifactId>ScoooterRental</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- lookup parent from repository -->
 	<!-- jar je predefinisana vrednost, ako se želi postavit war vrednost onda 
@@ -25,7 +25,7 @@
 		dole) -->
 	<packaging>jar</packaging>
 
-	<name>Cinema</name>
+	<name>ScoooterRental</name>
 	<url>http://www.example.com</url>
 
 	<properties>
@@ -128,7 +128,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>ZavrsniTest</finalName>
+		<finalName>ScoooterRental</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
