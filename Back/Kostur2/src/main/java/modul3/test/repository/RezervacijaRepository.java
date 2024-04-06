@@ -12,6 +12,7 @@ public interface RezervacijaRepository extends JpaRepository<Rezervacija, Long> 
 	
 	Rezervacija findOneById(Long id);
 	
+	List<Rezervacija>findAll ();
 	
 	List<Rezervacija> findByTrotinetId (Long id);
 
